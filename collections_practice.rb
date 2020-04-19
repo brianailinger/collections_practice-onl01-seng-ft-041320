@@ -27,5 +27,17 @@ end
 
 swap_elements(["blake", "ashley", "scott"])
 
+def reverse_array(array)
+  array.reverse
+end
 
+reverse_array(["blake", "ashley", "scott"]) 
+
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
+  end
+end
+
+kesha_maker(["blake", "ashley", "scott"])
 
